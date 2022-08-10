@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif; 
+    font-size: 16px;  
+    color: #2E2623;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.hero-section {
+    height: 343px;
+    background-image: url("images/boston-hero.jpg");
+    background-size: cover;
+    background-position: center;    
+}
+
+.hero-header, .hero-header-2 {
+    margin: 0;
+    color: white;
+    text-shadow: 0px 0px 2px #2E2623;
+}
+
+.hero-header {
+    padding: 135px 0 18px;
+}
+
+.activities-section {
+    background-color: #FEF1EB;
+    margin: 0; 
+}
+
+.activities-top-header {
+    font-size: 20px;
+    margin: auto;
+    padding: 46px 0 20px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 190px;
+}
+
+.activity-image {
+    border-radius: 50%;
+}
+
+.activity-header {
+    padding: 0 5px;    
+}
+
+.guide-quote {
+    font-style: italic;
+}
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+}
+
+.guide-card {
+    width: 400px;
+    background-color: #E8B18B;
+    display: flex;
+    margin: 44px 0 71px;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.guide-img {
+    width: 182px;
+    padding: 25px 0 25px 20px;
+}
+
+.guide-header {
+    margin: 0;
+    padding: 0;
+}
+
+.guide-about {
+    margin: 10px 15px 10px 10px;
+}
